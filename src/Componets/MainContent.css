@@ -1,0 +1,77 @@
+.Container{
+    padding:3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.vrContent{
+    padding:6rem 2rem 0rem 6rem;;
+    width: 45%;
+    height: 25rem;
+    background: white;
+    margin-left: -16rem;
+}
+.vrContent >h1{
+    padding-bottom: 2rem;
+    font-size: 4rem;
+}
+.vrContent > p{
+    line-height: 2rem;
+    padding-right: 9rem;
+}
+.avtar{
+    width:100rem;
+}
+.Image{
+    height:42rem;
+}
+.gImage{
+    height: 42rem;
+}
+/* content */
+.content{
+    margin: 10rem 0rem 10rem 0;
+}
+.content > header{
+    display: flex;
+    justify-content: space-between;
+    margin:0rem 10rem 5rem 10rem;
+}
+header > button{
+    background:white;
+    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+}
+.gallery{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.gallery > .Image{
+    flex-direction: row;
+}
+
+.Gallery{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.header{
+    font-size: 80px;
+    color: white;
+    text-align:start;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+.header > p{
+    font-size: 3rem;
+    padding: 3rem;
+}

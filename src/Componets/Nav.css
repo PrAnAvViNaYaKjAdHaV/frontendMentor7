@@ -1,0 +1,56 @@
+body{
+    width: 100vw;
+}
+main{
+    height: 60rem;
+    width: 100vw;
+}
+.nContaner{
+    height: 50rem;
+    background: url("../images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 8rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem 0rem 9rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Content{
+    padding: 8rem 6rem 0rem 9rem;
+    width: 50%;
+    
+}
+.Content > h1{
+    font-size: 6rem;
+    padding: 1rem;
+    border: 2px solid white;
+}
+li > img{
+    display:none;
+}
+/* media Query  */
+@media screen and (max-width: 480px) {
+    ul > li{
+        display: none;
+    }
+    li > img{
+        display: block;
+    }
+  }

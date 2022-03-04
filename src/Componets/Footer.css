@@ -1,0 +1,28 @@
+.FContainer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+    padding: 6rem;
+}
+.navigation >h1,li{
+    color: white;
+}
+.navigation>h1{
+    margin-bottom: 1rem;
+}
+.FooterImage > .fImages{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+.fImages > .Image{
+   width: 1rem;
+   height: 1rem;
+   
+}
+.FooterImage >p{
+    color: white;
+}
